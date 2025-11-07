@@ -1,0 +1,37 @@
+# Automated Backup System (Bash Script)
+
+## Overview
+This project provides a **fully automated backup system** written in **Bash**.  
+It creates timestamped, compressed `.tar.gz` backups of your files, verifies integrity with SHA256 checksums, rotates old backups using a 7-4-3 policy (daily-weekly-monthly), and can restore files when needed.
+
+---
+
+## Features
+
+### Core Features
+- ✅ Compressed backups (`.tar.gz`) with timestamps  
+- ✅ Exclude patterns (`.git`, `node_modules`, `.cache`, user-configurable)  
+- ✅ SHA256 checksum verification  
+- ✅ Backup rotation: 7 daily, 4 weekly, 3 monthly  
+- ✅ Configurable via `backup.config`  
+- ✅ Logging of all operations  
+- ✅ Dry-run mode for testing  
+- ✅ Lock file mechanism to prevent concurrent runs  
+
+### Bonus Features
+- 🎁 Restore backups easily  
+- 🎁 List all available backups  
+- 🎁 Disk space check before backup  
+- 🎁 Simulated email notifications  
+- 🎁 Incremental backups (only changed files)  
+
+---
+
+## Installation
+
+### Prerequisites
+Ensure the following tools are installed:
+```bash
+tar --version
+sha256sum --version
+bash --version  # 4.0 or higher
