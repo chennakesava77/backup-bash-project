@@ -19,11 +19,11 @@ It creates timestamped, compressed `.tar.gz` backups of your files, verifies int
 - âœ… Lock file mechanism to prevent concurrent runs  
 
 ### Bonus Features
-- ğŸ Restore backups easily  
-- ğŸ List all available backups  
-- ğŸ Disk space check before backup  
-- ğŸ Simulated email notifications  
-- ğŸ Incremental backups (only changed files)  
+- í¾ Restore backups easily  
+- í¾ List all available backups  
+- í¾ Disk space check before backup  
+- í¾ Simulated email notifications  
+- í¾ Incremental backups (only changed files)  
 
 ---
 
